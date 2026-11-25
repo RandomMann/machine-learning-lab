@@ -21,4 +21,3 @@ models = {
 
 models["CNN"]["Epochs"] = 250
 print(models["Resnet"]["Accuracy"])
-print(len(models))
