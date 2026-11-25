@@ -18,6 +18,7 @@ best_model = []
 for item in learning_rates.items():
 	if item[1] == max_learning_rate:
 	    best_model.append(item[0])
+		
 print(f"Max Learning Rateis {max_learning_rate},Best Model is {best_model}")
 
 #print(learning_rates.keys())
